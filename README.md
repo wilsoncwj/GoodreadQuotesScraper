@@ -3,6 +3,7 @@ Web spider for crawling goodread quotes from using Scrapy.
 
 # Installing Scrapy and virtual environment
 `pip install scrapy`
+
 `pip install pipenv`
 
 # Running the scraper
