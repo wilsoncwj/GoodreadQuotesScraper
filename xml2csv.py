@@ -2,7 +2,7 @@ import xmltodict
 import pandas as pd
 import numpy as np
 
-with open('./final_10000.xml', 'r', encoding="utf-8") as f:
+with open('./wilson.xml', 'r', encoding="utf-8") as f:
     data = xmltodict.parse(f.read())['items']['item']
 
 data_np = np.array((data))
