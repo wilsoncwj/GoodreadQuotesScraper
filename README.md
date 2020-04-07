@@ -12,3 +12,10 @@ Activate virtual environment using `source ./bin/activate`
 
 Within the Scrapy virtual environment, run the following command
 `scrapy crawl quotes`
+
+## Fields of interest
+- quote
+- author
+- number of likes
+- image url (if any)
+- tags
