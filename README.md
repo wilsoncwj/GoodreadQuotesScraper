@@ -2,8 +2,6 @@
 Web spider for crawling goodread quotes using Scrapy.
 ![](https://github.com/wilsoncwj/GoodreadQuotesScraper/blob/master/screenshots/website.png?raw=true)
 
-![](https://github.com/wilsoncwj/GoodreadQuotesScraper/blob/master/screenshots/json.png?raw=true)
-
 ## Installing Scrapy and virtual environment
 `pip install scrapy`
 
