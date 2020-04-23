@@ -10,8 +10,10 @@ Web spider for crawling goodread quotes using Scrapy.
 ## Running the scraper
 Activate virtual environment using `source ./bin/activate`
 
-Within the Scrapy virtual environment, run the following command
+Within the Scrapy virtual environment, run
 `scrapy crawl quotes`
+
+Output file will be saved in json format.
 
 ## Fields of interest
 - quote
