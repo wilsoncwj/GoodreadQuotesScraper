@@ -3,15 +3,16 @@ import os
 
 cwd = os.getcwd()
 
-jsonfile = open("testing1234.json", "r")
+jsonfile = open("wilson.json", "r")
 lst = json.load(jsonfile)
 
 num_quotes = len(lst)
 print("Number of quotes =", num_quotes)
 
+### Pre-processing steps are below, run the ones you need
 # Reorder the ID of the quotes to start from 0.
-for i in range(num_quotes):
-    lst[i]["item"]["id"] = i
+# for i in range(num_quotes):
+#     lst[i]["item"]["id"] = i
 
 ### Make the tags a string instead of an element in a list
 # for i in range(num_quotes):
@@ -86,5 +87,5 @@ for i in range(num_quotes):
 #         lst_copy.append(lst[i])
 
 # Save the lst to json
-with open('wilson.json', 'w') as outfile:
-    json.dump(lst, outfile)
+# with open('wilson.json', 'w') as outfile:
+#     json.dump(lst, outfile)
